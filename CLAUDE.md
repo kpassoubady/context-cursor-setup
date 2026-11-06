@@ -1,11 +1,13 @@
-# Project Overview
-This project was scaffolded using the `repo-init` skill. 
+# Context Engineering for Cursor — Setup
 
-## Directory Layout
-- `llm-context/`: Stores context for LLM agents.
+Standalone pre-class setup repository for **Context Engineering for Cursor**. It contains installation instructions, environment prerequisites, and verification steps for students to complete before class.
 
-## Verification Steps
-TBD
+## Tech Stack
 
-## Content Guidelines
-TBD
+- **Primary Tool:** Cursor IDE
+- **Supported OS:** macOS and Windows
+
+## Conventions
+
+- Keep this repository independently usable before students receive other course materials.
+- Do not link to internal or sibling course repositories.
