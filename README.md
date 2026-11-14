@@ -1,25 +1,41 @@
-# Context Engineering for Cursor — Setup
+# Context Engineering for Cursor
 
-Standalone pre-class setup repository for **Context Engineering for Cursor**.
+This is the standalone pre-class setup repository for **Context Engineering for Cursor**. Use this repository before attending the 4-hour training session to review the course outline, install and configure Cursor IDE, Python 3, and Git on your operating system, and verify your local environment. Hands-on lab materials are distributed separately at the start of class.
 
-Use this repository to review course requirements, install and configure Cursor IDE, MCP servers, and required prerequisites, and verify your development environment before class.
+## Start Here
 
-## Course Overview
+Begin with the student welcome and setup checklist:
 
-A 4-hour intensive course on context engineering principles specific to Cursor, covering environment orchestration, multi-layered `.cursorrules`, MCP integration, codebase indexing, Composer agent mode, and the Context Inspector.
+- [Welcome and Setup Guide](./Welcome-and-Setup-Guide-Context-Cursor.md)
 
-### Audience
-- Developers working in AI-assisted coding environments
+## Course Outline
 
-### Prerequisites
-- Familiarity with LLM concepts and terminology
-- Basic experience with Cursor or a comparable AI development tool
-- Understanding of the Model Context Protocol (MCP) is recommended
-- Active Cursor IDE installation and account
+Review the session schedule, prerequisites, learning outcomes, and breakout topics:
 
-## Getting Started
+- [Course Outline](./catalog/Context-Engineering-for-Cursor-4-Hour-AM-PM-Outline.md)
 
-1. Review the installation guide for your operating system.
-2. Confirm your Cursor IDE installation and account sign-in.
-3. Configure the required local MCP servers.
-4. Run the environment verification checks before attending the session.
+## Installation Guides
+
+Follow the installation instructions for your operating system:
+
+- [Main Installation Guide](./install/install.md)
+- [macOS Installation Guide](./install/install-mac.md)
+- [Windows Installation Guide](./install/install-win.md)
+
+## Verify Your Setup
+
+After installing the required tools, run the verification quickstart to confirm your environment is ready:
+
+- [Verification Quickstart Guide](./quickstart-project/README.md)
+
+```bash
+python3 quickstart-project/verify_setup.py
+```
+
+*(On Windows, if Python is registered as `python`, run `python quickstart-project/verify_setup.py` or `quickstart-project\verify.bat`.)*
+
+Expected success marker:
+
+```text
+SETUP VERIFICATION PASSED
+```
